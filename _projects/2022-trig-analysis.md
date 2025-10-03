@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Statics 2020
+title: Trig Analysis
 description: Class project with Graphs
 technologies: [MATLAB, python]
 image: /assets/images/statics picture.jpg
