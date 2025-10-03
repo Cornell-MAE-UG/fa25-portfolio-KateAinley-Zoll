@@ -1,16 +1,14 @@
 ---
 layout: project
-title: Analysis of Functions
+title: Statics 2020
 description: Class project with Graphs
 technologies: [MATLAB, python]
-image: /assets/images/function-graph.png
+image: /assets/images/statics picture.jpg
 ---
 
 
-As part of a class project...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec accumsan leo. Pellentesque ornare orci enim, vitae vestibulum nibh rutrum in. Donec pharetra risus nec ipsum fringilla, et mattis tortor auctor. Duis tortor ante, posuere ut odio a, scelerisque interdum purus. Pellentesque ornare orci enim, vitae vestibulum nibh rutrum in. Donec pharetra risus nec ipsum fringilla, et mattis tortor auctor. Duis tortor ante, posuere ut odio a, scelerisque interdum purus. Aenean faucibus luctus est, sed bibendum tellus. Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
-
-
-Aenean faucibus luctus est, sed bibendum tellus. Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
+As part of a class project we were given a 2D design space of 150cm long and 50cm tal. We had to choose a rigid bar of a fixed length, 3 pin supports of which two need to be mounted on the ground and a linear
+actuator, and design a frame/mechanism to lift the maximum possible weight to the highest possible height. Assume all the supports and bar/actuator are rigid. I chose the RSX Actuator with a  force up to 294KN.
 
 
 This is how I solved the problem:
