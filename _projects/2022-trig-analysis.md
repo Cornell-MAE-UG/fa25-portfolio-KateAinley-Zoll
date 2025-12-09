@@ -13,10 +13,7 @@ actuator, and design a frame/mechanism to lift the maximum possible weight to th
 
 This is how I solved the problem:
 
-```python
-    some code = 10;
-    plot();
-```
+![]({{ "assets/images/prot.jpeg" | relative_url }})
 
 
 
