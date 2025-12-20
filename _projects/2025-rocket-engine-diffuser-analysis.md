@@ -66,11 +66,13 @@ Flow separation or unsteady shock motion leads to large losses, high entropy gen
 We treat the diffuser and the immediate rocket-exhaust region as a **steady-flow control volume**.
 ### Mass balance
 The total mass flow rate is conserved between inlet (1) and outlet (2):
+
 $$
 \dot{m}_1 = \dot{m}_2
 $$
 At the outlet, the flow may consist of **nozzle exhaust plus entrained air**:
 $$
+
 \dot{m}_2 = \dot{m}_\text{exhaust} + \dot{m}_\text{entrained}
 $$
 ### Steady-flow energy equation
