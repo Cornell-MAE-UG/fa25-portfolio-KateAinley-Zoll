@@ -58,5 +58,37 @@
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    (function(){
+      function onMathJaxReady(){
+        try {
+          if(window.MathJax && window.MathJax.startup){
+            console.log('[MathJax Debug] found, version', window.MathJax.version);
+            window.MathJax.startup.promise.then(function(){
+              console.log('[MathJax Debug] startup.promise resolved');
+              window.MathJax.typesetPromise().then(function(){
+                console.log('[MathJax Debug] typeset OK');
+              }).catch(function(err){
+                console.error('[MathJax Debug] typeset error', err);
+              });
+            }).catch(function(err){
+              console.error('[MathJax Debug] startup error', err);
+            });
+          } else {
+            console.error('[MathJax Debug] not found');
+          }
+        } catch (e) {
+          console.error('[MathJax Debug] unexpected error', e);
+        }
+      }
+      if(document.readyState === 'complete' || document.readyState === 'interactive'){
+        onMathJaxReady();
+      } else {
+        document.addEventListener('DOMContentLoaded', onMathJaxReady);
+      }
+      // fallback in case MathJax loads late
+      setTimeout(onMathJaxReady, 3000);
+    })();
+  </script>
 </body>
 </html>
