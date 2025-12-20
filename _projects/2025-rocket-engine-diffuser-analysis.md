@@ -78,14 +78,17 @@ $$
 $$
 
 ### Steady-flow energy equation
+
 The general steady-flow energy balance for the control volume is
 
 $$
+\begin{aligned}
 \dot{m}\left(h_1 + \frac{V_1^2}{2} + g z_1\right)
 + \dot{Q} - \dot{W}_s
-=
+&=
 \dot{m}\left(h_2 + \frac{V_2^2}{2} + g z_2\right)
 + \dot{E}_\text{loss}
+\end{aligned}
 $$
 
 For the diffuser we typically assume:
