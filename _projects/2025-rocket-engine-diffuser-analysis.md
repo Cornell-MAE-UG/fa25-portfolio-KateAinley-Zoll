@@ -92,8 +92,8 @@ $$
 $$
 
 For the diffuser we typically assume:
-- shaft work is negligible, \( \dot{W}_s \approx 0 \)
-- elevation changes are small, \( z_1 \approx z_2 \)
+- shaft work is negligible, $\dot{W}_s \approx 0$
+- elevation changes are small, $z_1 \approx z_2$
 - heat transfer is small compared to the flow energy.
 
 Under these assumptions, the balance simplifies to
