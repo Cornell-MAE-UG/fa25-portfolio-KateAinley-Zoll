@@ -70,13 +70,16 @@ The total mass flow rate is conserved between inlet (1) and outlet (2):
 $$
 \dot{m}_1 = \dot{m}_2
 $$
-At the outlet, the flow may consist of **nozzle exhaust plus entrained air**:
-$$
 
+At the outlet, the flow may consist of **nozzle exhaust plus entrained air**:
+
+$$
 \dot{m}_2 = \dot{m}_\text{exhaust} + \dot{m}_\text{entrained}
 $$
+
 ### Steady-flow energy equation
 The general steady-flow energy balance for the control volume is
+
 $$
 \dot{m}\left(h_1 + \frac{V_1^2}{2} + g z_1\right)
 + \dot{Q} - \dot{W}_s
@@ -84,6 +87,7 @@ $$
 \dot{m}\left(h_2 + \frac{V_2^2}{2} + g z_2\right)
 + \dot{E}_\text{loss}
 $$
+
 For the diffuser we typically assume:
 - shaft work is negligible, \\( \dot{W}_s \approx 0 \\)
 - elevation changes are small, $ z_1 \approx z_2 $
