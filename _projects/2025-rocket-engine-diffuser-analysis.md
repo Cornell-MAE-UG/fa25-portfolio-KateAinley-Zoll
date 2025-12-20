@@ -98,12 +98,13 @@ For the diffuser we typically assume:
 
 Under these assumptions, the balance simplifies to
 
-\[
+$$
 \dot{m}\left(h_1 + \frac{V_1^2}{2}\right)
 \approx
 \dot{m}\left(h_2 + \frac{V_2^2}{2}\right)
 + \dot{E}_{\text{loss}}
-\]
+$$
+
 
 ### Bernoulli-style form with losses
 For a single-phase flow we can rewrite the same physics in a Bernoulli-style relation that includes a head-loss term \\(h_L\\):
