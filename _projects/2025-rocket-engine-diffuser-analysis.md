@@ -66,46 +66,58 @@ Flow separation or unsteady shock motion leads to large losses, high entropy gen
 We treat the diffuser and the immediate rocket-exhaust region as a **steady-flow control volume**.
 ### Mass balance
 The total mass flow rate is conserved between inlet (1) and outlet (2):
-\[
+{% raw %}
+<script type="math/tex; mode=display">
 \dot{m}_1 = \dot{m}_2
-\]
+</script>
+{% endraw %}
 At the outlet, the flow may consist of **nozzle exhaust plus entrained air**:
-\[
+{% raw %}
+<script type="math/tex; mode=display">
 \dot{m}_2 = \dot{m}_\text{exhaust} + \dot{m}_\text{entrained}
-\]
+</script>
+{% endraw %}
 ### Steady-flow energy equation
 The general steady-flow energy balance for the control volume is
-\[
+{% raw %}
+<script type="math/tex; mode=display">
 \dot{m}\left(h_1 + \frac{V_1^2}{2} + g z_1\right)
 + \dot{Q} - \dot{W}_s
 =
 \dot{m}\left(h_2 + \frac{V_2^2}{2} + g z_2\right)
 + \dot{E}_\text{loss}
-\]
+</script>
+{% endraw %}
 For the diffuser we typically assume:
 - shaft work is negligible, \\( \dot{W}_s \approx 0 \\)
 - elevation changes are small, $ z_1 \approx z_2 $
 - heat transfer is small compared to the flow energy
 Under these assumptions, the balance simplifies to
-\[
+{% raw %}
+<script type="math/tex; mode=display">
 \dot{m}\left(h_1 + \frac{V_1^2}{2}\right)
 \;\approx\;
 \dot{m}\left(h_2 + \frac{V_2^2}{2}\right)
 + \dot{E}_\text{loss}
-\]
+</script>
+{% endraw %}
 ### Bernoulli-style form with losses
 For a single-phase flow we can rewrite the same physics in a Bernoulli-style relation that includes a head-loss term \\(h_L\\):
-\[
+{% raw %}
+<script type="math/tex; mode=display">
 p_1 + \frac{1}{2}\rho_1 V_1^2 + \rho_1 g z_1
 =
 p_2 + \frac{1}{2}\rho_2 V_2^2 + \rho_2 g z_2 + \rho\,h_L
-\]
+</script>
+{% endraw %}
 Here \\(h_L\\) represents losses from friction, mixing, shocks, and separation in the diffuser.
 ### Thrust relation and impact of the diffuser
 The rocket thrust at the exit plane (before the diffuser) can be approximated by
-\[
+{% raw %}
+<script type="math/tex; mode=display">
 F = \dot{m}\,V_e + \left(p_e - p_\infty\right) A_e ,
-\]
+</script>
+{% endraw %}
 where \\(V_e\\) and \\(p_e\\) are the exhaust velocity and static pressure at the nozzle exit, \\(p_\infty\\) is ambient (test-cell) pressure, and \\(A_e\\) is the nozzle exit area.
 A diffuser that **raises the downstream static pressure** (and therefore modifies \\(p_e\\) or the effective back pressure) will:
 - change the pressure term \\(\left(p_e - p_\infty\right)A_e\\),
@@ -115,13 +127,15 @@ If the diffuser effectively raises static pressure downstream without causing se
 ---
 ## Entropy Balance and Irreversibility
 For the same control volume, the **entropy balance** is
-\[
+{% raw %}
+<script type="math/tex; mode=display">
 \dot{m}\left(s_2 - s_1\right)
 =
 \dot{S}_\text{gen}
 +
 \frac{\dot{Q}}{T_\text{wall, avg}},
-\]
+</script>
+{% endraw %}
 <p>
 where \( \dot{S}_{\text{gen}} \ge 0 \) is the rate of entropy generation
 and \( T_{\text{wall, avg}} \) is an average wall temperature where heat
