@@ -3,7 +3,7 @@ layout: project
 title: MAE 2250 Spotted Lantern Fly Project
 description: This is the client pitch on our SPL system idea. 
 technologies: [Autodesk Fusion]
-image: /assets/images/SPL.jpg
+image: /assets/images/SPL.png
 ---
 
 
