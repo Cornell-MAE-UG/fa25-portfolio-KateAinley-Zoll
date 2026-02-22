@@ -7,29 +7,11 @@ technologies: [Autodesk Fusion]
 ---
 
 
----
-fontsize: 11pt
-geometry: margin=1in
-papersize: letter
-pagestyle: empty
-header-includes:
-  - \pagenumbering{gobble}
-  - \usepackage{titlesec}
-  - \titlespacing*{\section}{0pt}{0.6ex}{0.8ex}
-  - \titlespacing*{\subsection}{0pt}{0.4ex}{0.6ex}
-  - \setlength{\parskip}{0pt}
-  - \setlength{\parindent}{0pt}
-  - \renewcommand{\baselinestretch}{0.95}
-  - \raggedbottom
----
+## HertzTrap: Frequency-Based Spotted Lanternfly Deterrent
 
 
+**Team:** Newton's Nightmares
 
-
-# HertzTrap: Frequency-Based Spotted Lanternfly Deterrent
-
-
-**Team:** Newton's Nightmares  
 **Client(s):** Cornell CALS Extension / E\&J Gallo Winery / National Grape
 
 
@@ -82,7 +64,9 @@ SLF infestations prevent farms from passing health code inspections, forcing the
 
 
 1. **What size trap would be most practical for your operations?** *Decision affected:* Sizing and the number of traps we recommend installing per acre.
+
 2. **Will disposing of dead flies be an issue for your farms?** *Decision affected:* Whether we need to design the trap to minimize aftereffects or provide disposal guidance.
+
 3. **Is harming non-SLF animals and pests of similar size/behavior a major environmental concern?** *Decision affected:* Whether we need to refine trap selectivity or if the current design approach is acceptable.
 
 
@@ -92,7 +76,9 @@ SLF infestations prevent farms from passing health code inspections, forcing the
 
 
 - Wine Market Value - https://www.grandviewresearch.com/industry-analysis/us-wine-market
+
 - Spotted Lanternfly Information - https://cals.cornell.edu/integrated-pest-management/outreach-education/whats-bugging-you/spotted-lanternfly/spotted-lanternfly-damage
+
 - 60 Hz Research - https://www.usda.gov/about-usda/news/blog/spotted-lanternfly-reveals-potential-weakness
 
 
@@ -103,14 +89,5 @@ SLF infestations prevent farms from passing health code inspections, forcing the
 
 ![HertzTrap schematic](assets/images/HertzTrap_Figure.png){ width=0.8\textwidth }
 
-
-
-
-<iframe 
-    src="https://cornell-mae-ug.github.io/fa25-portfolio-KateAinley-Zoll/assets/png2pdf.pdf" 
-    width="100%" 
-    height="600px" 
-    style="border:none;">
-</iframe>
 
 
