@@ -71,7 +71,6 @@ SLF infestations prevent farms from passing health code inspections, forcing the
 
 
 
-
 ## References
 
 
@@ -80,8 +79,6 @@ SLF infestations prevent farms from passing health code inspections, forcing the
 - Spotted Lanternfly Information - https://cals.cornell.edu/integrated-pest-management/outreach-education/whats-bugging-you/spotted-lanternfly/spotted-lanternfly-damage
 
 - 60 Hz Research - https://www.usda.gov/about-usda/news/blog/spotted-lanternfly-reveals-potential-weakness
-
-
 
 
 
