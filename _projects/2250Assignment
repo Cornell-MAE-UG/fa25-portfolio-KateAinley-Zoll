@@ -7,10 +7,10 @@ image: /assets/images/statics picture.jpg
 ---
 
 
-bla bla bla awefawefawef
+bla bla bla awefawefawef awefawefawefawef
 
 <iframe 
-    src="https://github.com/Cornell-MAE-UG/fa25-portfolio-KateAinley-Zoll/blob/a792b50b42d6a7c62bd6460458005cdd844529ea/assets/png2pdf.pdf" 
+    src="https://cornell-mae-ug.github.io/fa25-portfolio-KateAinley-Zoll/assets/png2pdf.pdf" 
     width="100%" 
     height="600px" 
     style="border:none;">
