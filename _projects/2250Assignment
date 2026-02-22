@@ -3,7 +3,7 @@ layout: project
 title: MAE 2250 Spotted Lantern Fly Project
 description: This is the client pitch on our SPL system idea. 
 technologies: [Autodesk Fusion]
-#image: /assets/images/statics picture.jpg
+image: /assets/images/SPL.jpg
 ---
 
 
@@ -83,11 +83,6 @@ SLF infestations prevent farms from passing health code inspections, forcing the
 
 
 
-
-## Figure
-
-
-![HertzTrap schematic](assets/images/HertzTrap_Figure.png){ width=0.8\textwidth }
 
 
 
